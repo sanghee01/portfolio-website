@@ -132,7 +132,7 @@ p {
 /* Home */
 
 #home {
-  background: url(imgs/bg.png) center/cover no-repeat;
+  background: url("imgs/bg.png") center/cover no-repeat;
   padding: 40px;
   text-align: center;
 }
@@ -140,7 +140,7 @@ p {
   width: 250px;
   height: 250px;
   border-radius: 50%;
-  border: 2px solid var(--color-white);
+  border: 2px solid var(--color-light-white);
 }
 
 .home__title,
