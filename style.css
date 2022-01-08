@@ -92,18 +92,12 @@ p {
   margin: 4px 0;
 }
 
-#nav-home__bg {
-  background-image: url("imgs/bg.png");
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-}
-
 /* Navbar */
 #navbar {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  background-color: var(--color-my-blue);
   color: var(--color-white);
   padding: 16px;
 }
@@ -145,6 +139,8 @@ p {
 /* Home */
 
 #home {
+  background: url("imgs/bg.png") center/cover no-repeat;
+
   padding: 40px;
   text-align: center;
 }
