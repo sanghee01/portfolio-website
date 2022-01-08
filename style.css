@@ -92,14 +92,24 @@ p {
   margin: 4px 0;
 }
 
+#nav-home__bg {
+  background-image: url("imgs/bg.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
 /* Navbar */
 #navbar {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: var(--color-my-blue);
   color: var(--color-white);
+  position: fixed;
+  width: 100%;
   padding: 16px;
+  transition: background-color var(--animation-duration) ease-in;
+  z-index: 100;
 }
 
 .navbar__logo {
@@ -139,8 +149,6 @@ p {
 /* Home */
 
 #home {
-  background: url("imgs/bg.png") center/cover no-repeat;
-
   padding: 40px;
   text-align: center;
 }
