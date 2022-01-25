@@ -92,6 +92,8 @@ p {
   margin: 4px 0;
 }
 
+/* Navbar */
+
 #nav-home__bg {
   background-image: url("imgs/bg.png");
   background-repeat: no-repeat;
@@ -99,7 +101,6 @@ p {
   background-size: cover;
 }
 
-/* Navbar */
 #navbar {
   position: fixed;
   width: 100%;
@@ -156,7 +157,7 @@ p {
 
 #home {
   background: url("imgs/bg.png") center/cover no-repeat;
-  padding: 40px;
+  padding: 50px;
   padding-top: 120px;
   text-align: center;
 }
